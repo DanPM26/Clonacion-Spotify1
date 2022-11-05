@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(41, 65, 171);
+    margin: 0px;
+}
+
+header{
+    background-color: black;
+    padding: 30px;
+}
+
+.navbar{
+    float: right;
+}
+
+.text{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px;
+}
+main{
+    padding: 150px;
+    background-image: url(https://www-growth.scdn.co/static/home/bursts-mobile.svg);
+    background-position: center top 50%;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+.texto1{
+    text-align: center;
+}
+.button{
+    width: 250px; 
+     height: 30px; 
+     border: 3px solid#1ed760;
+     border-radius: 50px;
+     background:#1ed760; 
+     text-align: center;
+     color:black;
+     margin-left: 35%;
+}
+.button:hover{
+    text-align: center;
+    color:#431ed7; 
+}
+.box{
+   text-align: center;
+   margin: 5%; 
+}
+
+footer{
+    background-color: black;
+}
+
+.table {
+    position: relative;
+    left: 25%;
+    padding-bottom: 5px;
+    color: rgb(54, 141, 95);
+}
+
+
+

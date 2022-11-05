@@ -1,87 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spotify</title>
-    <link rel="stylesheet" href="./styles.css">
-    <style>
-        @media (max-width: 700px) {
-            
-        }
-        .start1 {
-            background-color: #1ed760;
-            color:rgb(41, 65, 171); 
-            padding: 10px 25px;
-            text-decoration: none;
-            margin: 0px;
-            border-style: none;
-            border-radius: 20px;
-            font-size: 20px;
-        }
-    </style>
+    <title>Spotify inicio</title>
+    <link rel="stylesheet" href="./css/stylesheet.css">
+    
 </head>
 
 <body>
 
     <header>
-        <div class="logo-spotify">
-            <img width="100px" height="50px" src="./assets/logo-spotify.jpg">
-        </div>
-        <div class="container">
-            <nav class="navbar"> 
-                <a href="#" style="color:#fdfdfd"> Premium</a>
-                <a href="#" style="color:#fdfdfd"> Ayuda</a>
-                <a href="#" style="color:#fdfdfd"> Descargar</a> 
-            <a href="#" style="color:#fdfdfd">Regístrate</a>
-        <a href="#" style="color:#fdfdfd"> Iniciar Sesión</a>
-    </nav>
-        </div>
+      <nav class="navbar">
+        <a href="#" class="text"> Premium</a>
+        <a href="#" class="text"> Ayuda</a>
+        <a href="#" class="text"> Descargar</a>
+        <a href="#" class="text">Regístrate</a>
+        <a href="#" class="text"> Iniciar Sesión</a>
+      </nav>
+    </div>
     </header>
 
-    <main class="event-campaig"> 
-<section class="box"> 
-        <div class="par1"> 
-           <b><h1>Escuchar es todo</h1></b>
-        </div>
-
-         <div class="par2">
-             <h2> <p>Millones de canciones y podcast. No necesitas tarjeta de crédito </p></h2>
-        </div>
-           <div class="start">
-              <a href="./1/index-s.html"><button  class="start1" onclick="" type="button">OBTEN SPOTIFY FREE</button></a>
+    <main>
+        <section class="box">
+            <div class="texto1">
+                    <h1>Escuchar es todo</h1>
+                    <h2> Millones de canciones y podcast. No necesitas tarjeta de crédito</h2>
+                    <h3 class="button">OBTEN SPOTIFY FREE</h3>     
             </div>
         </section>
     </main>
 
     <footer>
 
-        <div class="company">
-            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-spotify" viewBox="0 0 16 16">
-                <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.669 11.538a.498.498 0 0 1-.686.165c-1.879-1.147-4.243-1.407-7.028-.77a.499.499 0 0 1-.222-.973c3.048-.696 5.662-.397 7.77.892a.5.5 0 0 1 .166.686zm.979-2.178a.624.624 0 0 1-.858.205c-2.15-1.321-5.428-1.704-7.972-.932a.625.625 0 0 1-.362-1.194c2.905-.881 6.517-.454 8.986 1.063a.624.624 0 0 1 .206.858zm.084-2.268C10.154 5.56 5.9 5.419 3.438 6.166a.748.748 0 1 1-.434-1.432c2.825-.857 7.523-.692 10.492 1.07a.747.747 0 1 1-.764 1.288z"/>
-              </svg>
-            <h4>COMPAÑÍA</h4>
-            <a href="#" style="color:#fdfdfd">Acerca de</a>
-            <a href="#" style="color:#fdfdfd">Empleos</a>
-            <a href="#" style="color:#fdfdfd">For the Record</a>
-        </div>
+        <table class="table">
+            <head>
+                <tr>
+                    <th><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-spotify"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.669 11.538a.498.498 0 0 1-.686.165c-1.879-1.147-4.243-1.407-7.028-.77a.499.499 0 0 1-.222-.973c3.048-.696 5.662-.397 7.77.892a.5.5 0 0 1 .166.686zm.979-2.178a.624.624 0 0 1-.858.205c-2.15-1.321-5.428-1.704-7.972-.932a.625.625 0 0 1-.362-1.194c2.905-.881 6.517-.454 8.986 1.063a.624.624 0 0 1 .206.858zm.084-2.268C10.154 5.56 5.9 5.419 3.438 6.166a.748.748 0 1 1-.434-1.432c2.825-.857 7.523-.692 10.492 1.07a.747.747 0 1 1-.764 1.288z" />
+                             </svg>
+                    </th>
+                    <th><h4>COMPAÑIA</h4></th>
+                    <th><h4> COMUNIDADES </h4></th>
+                    <th><h4> ENLACES ÚTILES </h4></th>
+                </tr>
+            </head>
+            <tbody class="texto2">
+            <tr >
+                <td> <a href="#">Acerca de</a></td>
+                <td> <a href="#">Empleos</a></td>
+                <td> <a href="#">For the Record</a></td>
+            
+            </tr>
+            <tr >
+                <td><a href="#">Servicio para artistas</a></td>
+                <td><a href="#">Desarrolladores</a></td>
+                <td><a href="#">Publicidad</a></td>
+                <td><a href="#">Inversionistas</a></td>
+                <td><a href="#">Proveedores</a></td>
+            </tr>
+            <tr>
+                <td><a href="#">Ayuda</a></td>
+                <td><a href="#">Reproductor web</a></td>
+                <td><a href="#">App móvil gratis</a></td>
+            </tr>
+        </tbody>
+        </table>
 
-        <div class="comunnity">
-            <h4> COMUNIDADES </h4>
-        <a href="#" style="color:#fdfdfd">Servicio para artistas</a>
-        <a href="#" style="color:#fdfdfd">Desarrolladores</a>
-        <a href="#" style="color:#fdfdfd">Publicidad</a>
-        <a href="#" style="color:#fdfdfd">Inversionistas</a>
-        <a href="#" style="color:#fdfdfd">Proveedores</a>
-    </div>
-
-    <div class="links">
-        <h4> ENLACES ÚTILES </h4>
-    <a href="#" style="color:#fdfdfd">Ayuda</a>
-    <a href="#" style="color:#fdfdfd">Reproductor web</a>
-    <a href="#" style="color:#fdfdfd">App móvil gratis</a>
-</div>
     </footer>
+
 </body>
+
 </html>
